@@ -1,0 +1,27 @@
+CLO-2: Design different web pages by using modern tools.
+
+D. Creating Interactive Web Forms
+    •Objective: Design and style web forms, including form validation and user feedback.
+    •Description: Students will design a fully functional web form using HTML and CSS, incorporating various input types (text, email, date, etc.). They will also add styling for a user-friendly interface and implement basic client-side validation using JavaScript.
+    
+    Client-Side(Front-end) Responsibilities:
+        ->Displaying the form to the user.
+        ->Validating form inputs before submission.
+        ->Providing immediate feedback and interaction without requiring a server response.
+    Server-Side(Back-end) Responsibilities:
+        ->Receiving and processing the form data sent from the client.
+        ->Storing data in databases or performing other operations.
+        ->Sending responses back to the client, such as confirmation messages or errors.
+
+    Deliverables:
+        •	Submit the index.html, styles.css, and script.js files.
+        •	Provide a report documenting the form design, validation process, and the outcomes.
+    Learning Outcome:
+    By the end of this experiment, you should be able to design and style interactive web forms, implement client-side(front-end) validation using JavaScript, and provide user feedback to ensure a smooth user experience.
+
+
+Example Workflow:
+
+Client: User submits the form.
+Server: PHP script processes the data and stores it in a database.
+Client: User sees a confirmation message or feedback.

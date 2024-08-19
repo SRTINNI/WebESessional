@@ -1,0 +1,13 @@
+CLO-1: Gather knowledge of different programming techniques, protocols available for development.
+
+B. Client-Side Programming with JavaScript [mid]
+    •Objective: Introduction to JavaScript as a client-side programming language to create dynamic content and interactive web pages.
+    •Description: Students will learn JavaScript fundamentals, including variables, functions, events, and basic DOM manipulation. The experiment will involve creating a simple interactive webpage that responds to user inputs.
+
+    
+    Deliverables:
+        •	Submit the index.html and script.js files.
+        •	Provide a short report documenting the JavaScript features used and the outcome of the experiment.
+
+    Learning Outcome:
+    By the end of this experiment, you should understand how to use JavaScript for basic client-side programming, including manipulating the DOM, handling events, and creating interactive web pages.

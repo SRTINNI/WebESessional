@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client-Side Programming with JavaScript</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        input[type="text"] {
+            padding: 10px;
+            font-size: 16px;
+            width: 200px;
+            margin-right: 10px;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        #color-box {
+            width: 200px;
+            height: 200px;
+            margin: 20px auto;
+            border: 2px solid #333;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Interactive Webpage with JavaScript(within same file)</h1>
+    <p>Enter a color name or hex code to change the background color of the box below:</p>
+    <input type="text" id="color-input" placeholder="e.g., red or #ff0000">
+    <button onclick="changeColor()">Change Color</button>
+
+    <div id="color-box"></div>
+
+    <script>
+        // Function to change the background color of the color-box div
+        function changeColor() {
+            // Get the value from the input field
+            var color = document.getElementById('color-input').value;
+            
+            // Get the color-box div element
+            var colorBox = document.getElementById('color-box');
+            
+            // Set the background color of the color-box to the input value
+            colorBox.style.backgroundColor = color;
+        }
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,128 @@
+<!--
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock, Paper, Scissors Game</title>
+    <link rel="stylesheet" href="style4.css">
+</head>
+<body>
+    <header>
+        <h1>Rock, Paper, Scissors Game</h1>
+    </header>
+    
+    <main>
+        <div class="game-container">
+            <p>Select Rock, Paper, or Scissors:</p>
+            <div class="choices">
+                <button onclick="playGame('rock')">Rock</button>
+                <button onclick="playGame('paper')">Paper</button>
+                <button onclick="playGame('scissors')">Scissors</button>
+            </div>
+            <div id="result">
+                <p id="user-choice">Your choice: </p>
+                <p id="computer-choice">Computer's choice: </p>
+                <p id="winner">Result: </p>
+                <p id="rules">
+                    <strong>Game Rules:</strong>
+                    <ul>
+                        <li>Rock crushes Scissors.</li>
+                        <li>Scissors cuts Paper.</li>
+                        <li>Paper covers Rock.</li>
+                        <li>If both choices are the same, it's a tie.</li>
+                    </ul>
+                </p>
+            </div>
+        </div>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 Game Dev</p>
+    </footer>
+
+    <script src="script4.js"></script>
+</body>
+</html>
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock, Paper, Scissors with Payoff Matrix</title>
+    <link rel="stylesheet" href="style5.css">
+</head>
+<body>
+    <header>
+        <h1>Rock, Paper, Scissors Game</h1>
+    </header>
+    
+    <main>
+        <div class="game-container">
+            <p>Select Rock, Paper, or Scissors:</p>
+            <div class="choices">
+                <button class="choice-button" onclick="playGame('rock')">Rock</button>
+                <button class="choice-button" onclick="playGame('paper')">Paper</button>
+                <button class="choice-button" onclick="playGame('scissors')">Scissors</button>
+            </div>
+            <div id="result">
+                <p id="user-choice">Your choice: </p>
+                <p id="computer-choice">Computer's choice: </p>
+                <p id="winner">Result: </p>
+                <h2>Payoff Matrix</h2>
+                <p>In this game, we use a payoff matrix to show the rewards for each choice:</p>
+                <table id="payoff-matrix">
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th>Rock</th>
+                            <th>Paper</th>
+                            <th>Scissors</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>Rock</th>
+                            <td>0</td>
+                            <td>-1</td>
+                            <td>1</td>
+                        </tr>
+                        <tr>
+                            <th>Paper</th>
+                            <td>1</td>
+                            <td>0</td>
+                            <td>-1</td>
+                        </tr>
+                        <tr>
+                            <th>Scissors</th>
+                            <td>-1</td>
+                            <td>1</td>
+                            <td>0</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <h2>Game Rules</h2>
+                <ul>
+                    <li>Rock crushes Scissors</li>
+                    <li>Scissors cuts Paper</li>
+                    <li>Paper covers Rock</li>
+                </ul>
+                <p><strong>Payoff Matrix Explanation:</strong></p>
+                <ul>
+                    <li>Winning: <strong>1</strong> (Player gains 1 point)</li>
+                    <li>Loss: <strong>-1</strong> (Player loses 1 point)</li>
+                    <li>Tie: <strong>0</strong> (No change in score)</li>
+                </ul>
+            </div>
+        </div>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 Game Dev</p>
+    </footer>
+
+    <script src="script5.js"></script>
+</body>
+</html>

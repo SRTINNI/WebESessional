@@ -1,0 +1,11 @@
+ CLO-2: Design different web pages by using modern tools.
+ 
+ E. Designing a Multi-Page Website with Navigation
+    •Objective: Create a multi-page website with consistent navigation and design elements.
+    •Description: In this lab, students will design a small, multi-page website (e.g., home, about, contact pages) with consistent navigation menus and design themes. They will use CSS for styling and ensure that the navigation is intuitive and responsive.
+
+    Deliverables:
+        •	Submit the index.html, about.html, services.html, contact.html, and styles.css files.
+        •	Provide a report documenting the design and navigation process and the outcomes.
+    Learning Outcome:
+    By the end of this experiment, you should be able to create a multi-page website with consistent navigation and design elements, ensuring a cohesive user experience across different sections of the site.

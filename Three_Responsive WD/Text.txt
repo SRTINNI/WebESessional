@@ -1,0 +1,13 @@
+CLO-2: Design different web pages by using modern tools.
+
+C. Responsive Web Design with CSS Grid and Flexbox
+    •Objective: Learn to create responsive web page layouts using CSS Grid and Flexbox.
+    •Description: This experiment involves designing a web page that adapts to different screen sizes and orientations using CSS Grid and Flexbox. 
+                  Students will create layouts that reflow content appropriately on desktop, tablet, and mobile devices.
+
+    
+    Deliverables:
+        •	Submit the index.html and styles.css files.
+        •	Provide a report documenting the responsive design process and the outcomes.
+    Learning Outcome:
+        By the end of this experiment, you should be able to design a responsive web page layout using CSS Grid and Flexbox, ensuring the design adapts to various screen sizes and devices.

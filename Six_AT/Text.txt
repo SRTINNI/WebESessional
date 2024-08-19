@@ -1,0 +1,11 @@
+CLO-2: Design different web pages by using modern tools.
+
+F. Implementing Animations and Transitions in Web Pages
+    •Objective: Enhance web page interactivity and visual appeal using CSS animations and transitions.
+    •Description: This experiment focuses on adding visual effects to web pages through CSS animations and transitions. Students will learn to animate elements (e.g., buttons, images) and create smooth transitions for hover states, scrolling effects, and more.
+
+    Deliverables:
+        •	Submit the index.html, styles.css, and script.js files.
+        •	Provide a report documenting the animation and transition implementation and the outcomes.
+    Learning Outcome:
+    By the end of this experiment, you should be able to enhance web pages with CSS animations and transitions, creating a more dynamic and engaging user experience.

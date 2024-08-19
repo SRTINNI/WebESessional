@@ -1,0 +1,94 @@
+/* Reset some basic styles */
+body, h1, p, button, table {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: #f5f5f5;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header, footer {
+    background: #333;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.game-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1em;
+    padding: 2em;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 600px;
+    width: 100%;
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+
+.choice-button {
+    padding: 1em 2em;
+    border: none;
+    border-radius: 8px;
+    background: #007BFF;
+    color: white;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.3s;
+}
+
+.choice-button:hover {
+    background: #0056b3;
+    transform: scale(1.05);
+}
+
+.choice-button:active {
+    background: #003d80;
+}
+
+#result p, #result ul {
+    font-size: 1.2em;
+    margin: 0.5em 0;
+}
+
+#payoff-matrix {
+    margin-top: 1em;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#payoff-matrix th, #payoff-matrix td {
+    border: 1px solid #ddd;
+    padding: 0.5em;
+    text-align: center;
+}
+
+#payoff-matrix th {
+    background: #007BFF;
+    color: white;
+}
+
+#payoff-matrix tbody tr:nth-child(even) {
+    background: #f9f9f9;
+}

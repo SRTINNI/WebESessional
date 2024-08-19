@@ -1,0 +1,13 @@
+CLO-1: Gather knowledge of different programming techniques, protocols available for development
+A. Introduction to HTML and CSS Basics [mid]
+    •	Objective: Learn the foundational elements of HTML and CSS, including basic tags, styling, and layout techniques.
+    •	Description: This experiment introduces the basic structure of web pages using HTML and CSS. 
+                      Students will learn about elements, attributes, selectors, and basic styling techniques 
+                      to create simple, static web pages.
+
+    Deliverables:
+        •	Submit the index.html and styles.css files.
+        •	Provide a short report detailing what you learned, including screenshots of your web page at different stages.
+    
+    Learning Outcome:
+    By the end of this experiment, you should have a basic understanding of how to create and style a simple web page using HTML and CSS.
